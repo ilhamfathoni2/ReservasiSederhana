@@ -1,0 +1,39 @@
+
+*{
+	margin: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+a{
+	color: inherit;
+}
+h1{
+    color: #EF4F4F;
+}
+header{
+	background-color: #EF4F4F;
+	color: white;
+	box-shadow: 0 15px 25px rgba(92,99,105,.2);
+}
+  
+  @media print {
+    form,
+    a,
+    button,
+    .aksi,
+    br {
+      display: none;
+    }
+    h1{
+    color: #EF4F4F;
+}
+    body {
+      color: #767676;
+    }
+    tr:nth-child(even) {
+      color: salmon;
+    }
+  }
+  
